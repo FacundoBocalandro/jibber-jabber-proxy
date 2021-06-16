@@ -17,4 +17,4 @@ COPY . .
 
 EXPOSE 8080
 LABEL org.opencontainers.image.source="https://github.com/facundobocalandro/jibber-jabber-proxy"
-CMD [ "node", "server.js" ]
+CMD [ "npm", "run", "start-dev"]
